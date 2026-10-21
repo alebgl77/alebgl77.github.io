@@ -1,0 +1,45 @@
+# Alexandre Beguel
+
+> Alexandre Beguel is an Agentic AI Architect and external Chief AI Officer (CAIO) based in Paris who builds production GenAI that can be measured, audited and controlled.
+
+His focus is LLMOps, LLM FinOps, evaluation and evidence-first AI governance (EU AI Act, ISO/IEC 42001, NIST AI RMF). He is the founder of Digitalizor and has 20 years of experience across IT, data and AI. He works in French (native), English and Spanish. Engagements take GenAI from scoping to production for mid-sized companies, startups and e-commerce businesses: scoping and architecture, measurable production, governance and compliance, external CAIO and training.
+
+## Profile
+
+- [Profile (English)](https://alebgl77.github.io/): entity page with open-source work, upstream contributions, consulting scope and FAQ
+- [Profil (français)](https://alebgl77.github.io/fr/): French version of the profile page
+- [Perfil (español)](https://alebgl77.github.io/es/): Spanish version of the profile page
+- [beguel.com](https://beguel.com/): website of Alexandre Beguel
+- [LinkedIn](https://www.linkedin.com/in/beguel/): professional profile
+- [GitHub](https://github.com/alebgl77): source code of the projects below
+
+## Open-source projects
+
+- [grafana-llmops-forge](https://github.com/alebgl77/grafana-llmops-forge): discovers what a Grafana deployment actually collects (OTel GenAI, LiteLLM, vLLM/TGI, DCGM), then generates, deploys and visually verifies seven dashboards for FinOps, agents, quality and governance; E2E CI on Grafana 9.5 to 13.2, 63/63 generated queries executed on a real Prometheus
+- [openspanguard](https://github.com/alebgl77/openspanguard): OTLP enrichment gateway that evaluates completed generation spans and exposes evaluation coverage next to quality scores, so a good average cannot hide unevaluated traffic
+- [dsh-plugin-otel-genai](https://github.com/alebgl77/dsh-plugin-otel-genai): content-free OpenTelemetry GenAI token and latency metrics for DeepSeek Harness, ready for the grafana-llmops-forge dashboards
+- [open-shadow-ai](https://github.com/alebgl77/open-shadow-ai): self-hosted Shadow AI discovery that correlates network, endpoint and identity signals, with an explicit evidence level per finding; presence is never reported as usage
+- [ftp-deploy-mcp](https://github.com/alebgl77/ftp-deploy-mcp): MCP deployment server for FTP, FTPS and SFTP with local-root confinement, SHA-256-verified staged promotion, explicit human confirmation and rollback; on npm and the Official MCP Registry
+- [tierdecay](https://github.com/alebgl77/tierdecay): per-repo learning layer for AI coding routers that moves a recurring task class to a cheaper tier only after statistically confirmed successes; pilot at 0.66x frontier cost per task (95% interval 0.63 to 0.69)
+- [claude-inc](https://github.com/alebgl77/claude-inc): Claude Code plugin that runs a project as a virtual company, with peer CEO, CTO and CAIO, nine departments, 64 skill manuals and SHA-256 records of every submitted artifact
+- [harnessmeter](https://github.com/alebgl77/harnessmeter): offline context profiler for Claude Code and Codex that measures the token footprint of instructions and skills and enforces CI budgets against a baseline
+
+## Contributions
+
+- [LibreChat #15046](https://github.com/LibreChat-AI/LibreChat/pull/15046): merged; made CLAUDE.md portable and restored CLAUDE.md/AGENTS.md parity for auth-cache guidance
+- [AgentShield #123](https://github.com/affaan-m/agentshield/pull/123): merged; the scanner now discovers and classifies root .mcp.json files so MCP configurations reach the security rules
+- [Claude SEO #285](https://github.com/AgriciDaniel/claude-seo/pull/285): improved JSON-LD detection and removed template-expression false positives; landed in v2.3.0 with authorship preserved
+- [Grafana plugin-tools #2841](https://github.com/grafana/plugin-tools/pull/2841): merged; signed-commit contributor guidance
+- [Grafana plugin-tools #2830](https://github.com/grafana/plugin-tools/pull/2830): merged; Node 24 .nvmrc scaffold update
+- [OpenTelemetry GenAI semantic conventions #516](https://github.com/open-telemetry/semantic-conventions-genai/pull/516): in review; recording token usage on fetch_response spans
+- [LangChain OpenWiki #818](https://github.com/langchain-ai/openwiki/pull/818): in review; Mistral as a model provider
+
+## Optional
+
+- [generative-engine-monitor](https://github.com/alebgl77/generative-engine-monitor): measures brand visibility in AI answers, comparing parametric and web-grounded modes with bootstrap confidence intervals
+- [awesome-ai-architect](https://github.com/alebgl77/awesome-ai-architect): self-updating map of the GenAI engineering stack, classified daily by GitHub Actions
+- [awesome-ai-architect explorer](https://alebgl77.github.io/awesome-ai-architect/): interactive explorer of the map
+- [claude-inc project page](https://alebgl77.github.io/claude-inc/): project site for claude-inc
+- [openspanguard project page](https://alebgl77.github.io/openspanguard/): project site for openspanguard
+- [Malt](https://www.malt.fr/profile/alexandrebeguel): freelance profile
+- [Sitemap](https://alebgl77.github.io/sitemap.xml): all pages of this site
