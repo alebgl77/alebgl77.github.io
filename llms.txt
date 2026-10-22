@@ -15,7 +15,7 @@ His focus is LLMOps, LLM FinOps, evaluation and evidence-first AI governance (EU
 
 ## Open-source projects
 
-- [grafana-llmops-forge](https://github.com/alebgl77/grafana-llmops-forge): discovers available telemetry (OTel GenAI, LiteLLM, vLLM/TGI, DCGM), then generates and deploys seven dashboards for FinOps, agents, quality and governance. Automated query and contract checks run in E2E CI on Grafana 9.5 to 13.2; 63/63 generated queries executed on a real Prometheus. Rendering capture and optional DOM prechecks prepare a separate, optional human or vision-agent semantic visual review
+- [grafana-llmops-forge](https://github.com/alebgl77/grafana-llmops-forge): discovers available telemetry (OTel GenAI, LiteLLM, vLLM/TGI, DCGM), then generates and deploys seven dashboards for FinOps, agents, quality and governance. Automated query and contract checks run in E2E CI on Grafana 9.5 to 13.2. Generated queries are checked against a real Prometheus in CI. Rendering capture and optional DOM prechecks prepare a separate, optional human or vision-agent semantic visual review
 - [openspanguard](https://github.com/alebgl77/openspanguard): OTLP enrichment gateway that evaluates completed generation spans and exposes evaluation coverage next to quality scores, so a good average cannot hide unevaluated traffic
 - [dsh-plugin-otel-genai](https://github.com/alebgl77/dsh-plugin-otel-genai): content-free OpenTelemetry GenAI token and latency metrics for DeepSeek Harness, ready for the grafana-llmops-forge dashboards
 - [open-shadow-ai](https://github.com/alebgl77/open-shadow-ai): self-hosted Shadow AI discovery that correlates network, endpoint and identity signals, with an explicit evidence level per finding; presence is never reported as usage
